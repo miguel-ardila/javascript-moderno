@@ -32,12 +32,4 @@ let i = 23, f = 10, j = 44, z = i + j;
 // imprime todo en una tabla en consola
 // console.table({a, b, c, d, x});
 
-// var miNombre = "Miguel";
-
-let amy = 5;
-let mary = 31;
-let miguel = 32;
-
-const familia = "Miguel, Amy and Mary";
-
-console.log(amy, mary, miguel, familia);
+let miNombre = "Miguel";
