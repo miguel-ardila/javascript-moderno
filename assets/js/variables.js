@@ -33,3 +33,5 @@ let i = 23, f = 10, j = 44, z = i + j;
 // console.table({a, b, c, d, x});
 
 let miNombre = "Miguel";
+let miApellido = "Ardila";
+console.log(miNombre+ " " + miApellido);
