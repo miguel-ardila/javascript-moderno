@@ -14,3 +14,6 @@
 
 const seleccion = confirm("Estas seguro de Borrar?");
 console.log(seleccion);
+
+const eliminar = confirm("Seguro de Borrar");
+console.log(eliminar);
