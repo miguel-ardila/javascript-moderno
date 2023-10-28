@@ -22,3 +22,13 @@ let arregloCosas = [
 console.log(arregloCosas);
 console.log({arregloCosas});
 console.log(arregloCosas[7][2]); //array dentro de otro array
+
+
+
+let arregloCosas2 = [
+    true,
+    123,
+    "Amy",
+]
+
+console.log(arregloCosas);
