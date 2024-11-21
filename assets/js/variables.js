@@ -14,7 +14,7 @@ const saludo = c + d; // para que se imprima saludo se debe escribir saludo en c
 
 // console.log(x);
 
-c = "Hola de nuevo";
+c = "Hello now!";
 
  // otro ejmplo
 let i = 23, f = 10, j = 44, z = i + j;
