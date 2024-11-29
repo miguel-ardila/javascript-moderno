@@ -1,0 +1,62 @@
+/* Mantener centrado */
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: black; /* Fondo negro */
+    color: white;
+    text-align: center;
+}
+
+/* Título centrado con borde animado */
+h1 {
+    margin: 0;
+    padding: 20px;
+    border: 5px solid;
+    border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet) 1;
+    border-radius: 10px;
+    animation: borderAnimation 3s linear infinite;
+}
+
+/* Párrafo también centrado */
+p {
+    margin: 10px 0;
+    padding: 10px;
+    border: 3px solid;
+    border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet) 1;
+    border-radius: 5px;
+    animation: borderAnimation 3s linear infinite;
+}
+
+/* Animación del arcoíris */
+@keyframes borderAnimation {
+    0% {
+        border-image-source: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+    }
+    100% {
+        border-image-source: linear-gradient(405deg, red, orange, yellow, green, blue, indigo, violet);
+    }
+}
+
+/* Unicornio animado */
+.unicorn {
+    position: absolute;
+    top: 50%;
+    left: -100px; /* Empieza fuera de la pantalla */
+    font-size: 40px; /* Tamaño del unicornio */
+    color: yellow; /* Color del unicornio */
+    animation: moveUnicorn 15s linear infinite; /* Animación infinita */
+}
+
+/* Animación del movimiento */
+@keyframes moveUnicorn {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100vw); /* Se mueve fuera de la pantalla */
+    }
+}
