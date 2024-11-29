@@ -41,22 +41,11 @@ p {
     }
 }
 
-/* Unicornio animado */
-.unicorn {
-    position: absolute;
-    top: 50%;
-    left: -100px; /* Empieza fuera de la pantalla */
-    font-size: 40px; /* Tamaño del unicornio */
-    color: yellow; /* Color del unicornio */
-    animation: moveUnicorn 15s linear infinite; /* Animación infinita */
-}
-
-/* Animación del movimiento */
-@keyframes moveUnicorn {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(100vw); /* Se mueve fuera de la pantalla */
-    }
+/* Cerdito animado */
+.cerdito {
+    /* position: absolute; */
+    top: 50%; /* Centra el cerdito verticalmente */
+    left: -150px; /* Empieza fuera de la pantalla */
+    height: 120px; /* Ajusta el tamaño del cerdito */
+    /* animation: moveCerdito 5s linear infinite; Animación infinita */
 }
