@@ -13,6 +13,7 @@ let x =  a + b;
 const saludo = c + d; // para que se imprima saludo se debe escribir saludo en consola.
 
 // console.log(x);
+console.log(saludo);
 
 c = "Hello now!";
 
@@ -22,10 +23,10 @@ let i = 23, f = 10, j = 44, z = i + j;
 // console.log('i', i);
 // console.log('f', f);
 
-// console.log('f', f);  ('f',f); es un ejemplo que imprima en la consola el valor de variable z 67 i 23 f 10
+console.log('f', f);  ('f',f); //es un ejemplo que imprima en la consola el valor de variable z 67 i 23 f 10
 // clg para escirbir el codigo rapido de console.log
 
-// console.log({z});
+console.log({z});
 // console.log({i});
 // console.log({f});
 
